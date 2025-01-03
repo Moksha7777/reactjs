@@ -51,4 +51,7 @@ const newArr = numbers.map(myFunction)
 function myFunction(num) {
   return num * 10;
 }
-//
+//react render html
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
+root.render(<p>Hello</p>);
